@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* vendor prefixes*/
+/*does the same thing as the HTML <mata viewport> tag, but newer*/
+
+@-moz-viewport{ width: device-width; scale:1; }
+@-ms-viewport{ width: device-width; scale:1; }
+@-o-viewport{ width: device-width; scale:1; }
+@-webkit-viewport{ width: device-width; scale:1; }
+@viewport{ width: device-width; scale:1; }
+
+html{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+.masthead {
+	height: 4.5rem;
+	background-color: #CCC;
+	position: fixed;
+	width: 100%;
+	overflow: hidden;
+	z-index: 100; 
+}
+
+
+nav ul {
+	text-align: left;	
+	position: absolute;
+}
+
+nav li {
+	display: inline;	
+}
+
+nav a {
+	
+	margin: 1.5rem;
+	color: #000;
+	text-decoration: none;
+}
+
+
+
+html, body {
+	font-family: sans-serif;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	width: 90%;
+	padding: 0 5%;
+}
+
+img{
+	width:100%;
+}
+
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	position: relative;
+	margin-top: auto;
+	top: inherit;
+}
+
+
+.pic{
+	position: inherit;
+}
+
+.box {
+	background-color: #CCC;
+	padding: .5rem 6%;
+	margin-bottom: 1.5rem;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.bottom {
+	height: 10rem;
+	background-color: #999;
+}
+
+.bottom p {
+	font-size:.875rem;
+	color: #FF;
+	position: absolute;
+	margin: 1.5rem 4% 0;
+}
+
+
+
+
+
+

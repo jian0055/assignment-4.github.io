@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* vendor prefixes*/
+/*does the same thing as the HTML <mata viewport> tag, but newer*/
+
+@-moz-viewport{ width: device-width; scale:1; }
+@-ms-viewport{ width: device-width; scale:1; }
+@-o-viewport{ width: device-width; scale:1; }
+@-webkit-viewport{ width: device-width; scale:1; }
+@viewport{ width: device-width; scale:1; }
+
+html{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+html, body {
+	font-family: sans-serif;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align:center;
+}
+
+main{
+	width: 90%;
+	padding: 0 5%;
+}
+
+img{
+	width:100%;
+}
+
+table {
+	margin-top: 10rem;
+	margin-right: auto;
+	width: 70%;
+
+}
+
+
+th {
+	border: solid black thin;
+	padding: 0 1em 0 .5em;
+	background-color: #CCC;
+	text-align: inherit;
+}
+
+.em {
+	background-color: #CCC;
+	text-align: left;
+}
+
+td {
+	border: solid black thin;
+	text-align: right;
+}
+
+.masthead {
+	height: 4.5rem;
+	background-color: #CCC;
+	position: fixed;
+	width: 100%;
+	overflow: hidden;
+	z-index: 100; 
+}
+
+
+nav ul {
+	text-align: left;	
+	position: absolute;
+}
+
+nav li {
+	display: inline;	
+}
+
+nav a {
+	
+	margin: 1.5rem;
+	color: #000;
+	text-decoration: none;
+}
+
+
+.bottom {
+	height: 10rem;
+	background-color: #999;
+	position:absolute;
+	bottom:0px;
+	width:100%;
+}
+
+.bottom p {
+	font-size:.875rem;
+	color: #FF;
+}

@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* vendor prefixes*/
+/*does the same thing as the HTML <mata viewport> tag, but newer*/
+
+@-moz-viewport{ width: device-width; scale:1; }
+@-ms-viewport{ width: device-width; scale:1; }
+@-o-viewport{ width: device-width; scale:1; }
+@-webkit-viewport{ width: device-width; scale:1; }
+@viewport{ width: device-width; scale:1; }
+
+html{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+html, body {
+	font-family: sans-serif;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	width: 90%;
+	padding: 0 5%;
+}
+
+table {
+	border-collapse:collapse;
+	width: 70%;
+	margin-top: 3rem;
+}
+
+
+th {
+	border: solid white ;
+	padding: 0 1em 0 .5em;
+	background-color: #000;
+	text-align: inherit;
+	color: #FFF;
+}
+
+.em {
+	background-color: #CCC;
+	text-align: center;
+}
+
+td {
+	border: solid black thin;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+.bottom {
+	height: 10rem;
+	background-color: #999;
+}
+
+.bottom p {
+	font-size:.875rem;
+	color: #FF;
+	position: absolute;
+	margin: 1.5rem 4% 0;
+}
+
+.masthead {
+	height: 4.5rem;
+	background-color: #CCC;
+	position: fixed;
+	width: 100%;
+	overflow: hidden;
+	z-index: 100; 
+}
+
+
+nav ul {
+	text-align: left;	
+	position: absolute;
+}
+
+nav li {
+	display: inline;	
+}
+
+nav a {
+	
+	margin: 1.5rem;
+	color: #000;
+	text-decoration: none;
+}
+
+
+
+
